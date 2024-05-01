@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+}
+
+.left {
+    height: 100%;
+    width: 25%;
+    background-image: url(images/background1.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left p {
+    color: white;
+    text-align: center;
+}
+
+.odin-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 50%);
+    margin-top: 35%;
+    height: 15%;
+}
+
+.odin-logo h1 {
+    color: white;
+    letter-spacing: 12px;
+}
+
+.odin-logo img {
+    width: 15%;
+    padding: 10px;
+}
+
+/*  */
+
+.right {
+    width: 75%;
+    background-color: rgb(240, 240, 240)
+}
+
+.top-section {
+    padding: 40px;
+    margin-top: 60px;
+}
+
+/* */
+
+.middle-section {
+    height: 25%;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 20%);
+
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/*  */
+
+.input-styler {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 10px;
+}
+
+/* */
+
+.bottom-section {
+    padding: 40px;
+}
+
+.bottom-section > a {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #596D48;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 20%);
+    color: white;
+    padding: 10px;
+    width: 200px;
+    text-decoration: none;
+}
+
+.bottom-section > a + p > a {
+    text-decoration: none;
+    color: #596D48;
+}
+
+.bottom-section p {
+    margin-top: 20px;
+}
